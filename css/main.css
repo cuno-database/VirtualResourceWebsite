@@ -274,7 +274,8 @@ header {
   padding: 0.1rem 0rem 0.25rem 0rem;
   text-align: center;
 }
-header a {
+header a,
+.welcome a {
     display: inline-block;
     text-transform: uppercase;
     font-weight: bold;
@@ -287,7 +288,8 @@ header a {
     border-radius: 8px;
 }
 
-header a:hover {
+header a:hover,
+.welcome a:hover {
   background-color: #ddd;
   color: black;
 }
@@ -337,6 +339,51 @@ footer p {
   font-weight: bold;
   font-size: 1.5rem;
   text-align: center;
+}
+
+/* Decision Tree */
+.decisionTree {
+  text-align: center;
+}
+
+.decisionImage {
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  color: white;
+  width: 25rem;
+  height: 20rem;
+  overflow: hidden;
+}
+
+.decisionImage img {
+  height: 100%;
+  width: 100%;
+}
+
+.decisionImage .text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.decisionImage a {
+  display: inline-block;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: auto;
+  padding: 0.5rem;
+  margin: 0.25rem;
+  color: white;
+  text-decoration: none;
+  background-color: black;
+  border-radius: 8px;
+}
+
+.decisionImage a:hover {
+background-color: #ddd;
+color: black;
 }
 /* The school nav menu */
 .topnav {
