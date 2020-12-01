@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Virtual Resource Database</title>
+  <meta name="description" content="Educational Database">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="icon" href="../favicon.ico">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="../css/normalize.css">
+  <link rel="stylesheet" href="../css/main.css">
+
+  <meta name="theme-color" content="#fafafa">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-4ZBC4QJKQ6"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-4ZBC4QJKQ6');
+</script>
+
+</head>
+
+<body>
+
+	<!-- Main Page Content -->
+  
+    <header>
+		<h1><a href="./index.html">Virtual Educational Resource Database</a></h1>
+		  <nav>
+			  <a href="./pages/about.html">About</a>
+			  <a href="./pages/news.html">News</a>
+			  <a href="./pages/decisionTree/age.html">Get Started!</a>
+		  </nav>
+	  </header>
+
+  
+	<div class="main-data">
+		<h1>High School Development</h1>
+
+		<div id='table-container'>
+			<table class="table-fill" id="jquery-table"></table>
+		</div>
+
+	</div>
+
+	<footer class='footer'>
+        <div class="container">
+            <p>Questions?</p>
+            <p>email:cuno-admin@columbia.edu</p>
+        </div>
+	</footer>
+
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.1.0/papaparse.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/select2/3.4.6/select2.min.js"></script>
+  <script>
+    
+    function createTable(tableData) {
+	
+	var table = $('table#jquery-table');
+
+	table.empty();
+	
+	var header_columns = ["Resource Name", "Resource Type", "Source", "Key Concepts", "More Info"];
+	var thead_tr = $('<tr>');
+	$.each(header_columns, function(x, hcol) {
+		$('<th>').text(hcol).appendTo(thead_tr);
+ 	});
+  table.append( $('<thead>').append(thead_tr) );
+
+	var tbody = $('<tbody>');
+	$.each(tableData.data, function(x, row) {
+	    var tr = $('<tr>');
+	    $.each(row, function(y, col) {
+	        tr.append( $('<td>').html(col) );
+	    });
+	    tbody.append(tr);
+	});
+
+	table.append(tbody);
+}
+
+Papa.parse('../data/biology_development_high.csv', {
+	download: true,
+	header: true,
+	// quoteChar: '"',
+	complete: function(results) {
+		// console.log(results.meta.fields);
+		console.log("Parsing complete:", results.data);
+		createTable(results);
+	}
+});
+  </script>
+</body>
+
+
+</html>
