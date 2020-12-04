@@ -439,11 +439,10 @@ color: black;
 
 /* 
  * Tables
-
-.main-data {
-  margin-left: 35%;
-}
 */
+.main-data {
+  margin: auto;
+}
 
 /*
 *Table style adjustments
