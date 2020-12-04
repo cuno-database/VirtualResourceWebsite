@@ -442,6 +442,8 @@ color: black;
 */
 .main-data {
   margin: auto;
+  padding: 0rem 5rem 0rem 5rem;
+  text-align: center;
 }
 
 /*
