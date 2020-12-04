@@ -275,7 +275,8 @@ header {
   text-align: center;
 }
 header a,
-.welcome a {
+.welcome a,
+.BackButton a {
     display: inline-block;
     text-transform: uppercase;
     font-weight: bold;
@@ -289,7 +290,8 @@ header a,
 }
 
 header a:hover,
-.welcome a:hover {
+.welcome a:hover,
+.BackButton a:hover {
   background-color: #ddd;
   color: black;
 }
