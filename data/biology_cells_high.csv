@@ -1,4 +1,4 @@
 Resource Name,Resource Type,Source,Topics Covered,More Info
-Gene Expression Essentials,Interactive Simulation,PhET,"Transcription Factors, Polymerases, Ribosomes, mRNA, binding affinity, degradation","<a href=""../resource/GeneExpression_PhET.html"">Learn More</a>"
-Cell Anatomy Viewer,Game,Arizona State University,"Cell organelles and their functions, protein trafficking","<a href=""../resource/CellAnatomyViewer_ArizonaStateUniversity.html"">Learn More</a>"
-Cell Signalling,Interactive Simulation,University of Utah,"Signal transduction, vision, cancer, cell growth, hormones","<a href=""../resource/CellSignalling_UniversityofUtah.html"">Learn More</a>"
+Gene Expression Essentials,Interactive Simulation,PhET,"Transcription Factors, Polymerases, Ribosomes, mRNA, binding affinity, degradation","<a href=""../resource/GeneExpression_PhET.html"" target = ""_blank"">Click Here</a>"
+Cell Anatomy Viewer,Game,Arizona State University,"Cell organelles and their functions, protein trafficking","<a href=""../resource/CellAnatomyViewer_ArizonaStateUniversity.html"" target = ""_blank"">Click Here</a>"
+Cell Signalling,Interactive Simulation,University of Utah,"Signal transduction, vision, cancer, cell growth, hormones","<a href=""../resource/CellSignalling_UniversityofUtah.html"" target = ""_blank"">Click Here</a>"
