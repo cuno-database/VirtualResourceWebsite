@@ -571,10 +571,9 @@ td.text-left {
   .decisionImage img {
     width: 90%;
     height: 90%;
+    position: centered;
     margin-top: 0.5%;
-    margin-bottom: 0.5%
-  }
-  .decisionTree {
+    margin-bottom: 0.5%;
     margin-left: auto;
     margin-right: auto;
   }
