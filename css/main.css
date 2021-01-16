@@ -322,6 +322,21 @@ header a:hover,
   margin: 0 auto;
 }
 
+/* 
+ * Mobile Adjustments
+*/
+@media screen and (max-width: 600px) {
+  .welcome {
+    width: 80%;
+    display: inline-block;
+    margin: auto;
+  }
+  img .welcome {
+    width: 80%;
+    height: auto;
+  }
+}
+
 .explanation {
   width: 50%;
   text-align: center;
