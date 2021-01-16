@@ -581,4 +581,8 @@ td.text-left {
     text-align: center;
     max-width: 80%;
   }
+  .table-container {
+    width: 90%;
+    margin: auto;
+  }
 }
