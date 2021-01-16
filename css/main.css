@@ -585,4 +585,13 @@ td.text-left {
     width: 90%;
     margin: auto;
   }
+  .resource-header {
+    text-align: center;
+  }
+  .resource {
+    display: inline-block;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+  }
 }
