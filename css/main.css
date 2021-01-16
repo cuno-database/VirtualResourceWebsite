@@ -588,9 +588,10 @@ td.text-left {
   }
   .resource-header {
     text-align: center;
+    margin-left: 0;
   }
   .resource {
-    display: inline-block;
+    display: table-cell;
     width: 80%;
     margin: auto;
     text-align: center;
