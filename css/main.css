@@ -568,10 +568,9 @@ td.text-left {
   .explanation {
     width: 80%;
   }
-  .decisionImage img {
+  .decisionImage {
     width: 90%;
     height: 90%;
-    position: centered;
     margin-top: 0.5%;
     margin-bottom: 0.5%;
     margin-left: auto;
