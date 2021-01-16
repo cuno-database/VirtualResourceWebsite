@@ -594,6 +594,7 @@ td.text-left {
     display: table-cell;
     width: 80%;
     margin: auto;
+    padding: 2%;
     text-align: center;
   }
 }
