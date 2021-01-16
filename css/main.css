@@ -336,6 +336,9 @@ header a:hover,
     margin-right: auto;
     height: auto;
   }
+  .explanation {
+    width: 80%;
+  }
 }
 
 .explanation {
@@ -343,6 +346,8 @@ header a:hover,
   text-align: center;
   margin: 0 auto;
 }
+
+
 
 footer .container {  
   border-bottom: 0.5rem solid #66b3ff;
