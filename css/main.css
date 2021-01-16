@@ -328,11 +328,12 @@ header a:hover,
 @media screen and (max-width: 600px) {
   .welcome {
     width: 80%;
-    display: inline-block;
     margin: auto;
   }
   img .welcome {
     width: 80%;
+    margin-left: auto;
+    margin-right: auto;
     height: auto;
   }
 }
