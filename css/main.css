@@ -447,6 +447,9 @@ color: black;
   margin: auto;
   padding: 0rem 5rem 0rem 5rem;
   text-align: center;
+  max-width: 75%;
+  min-width: 30%;
+  overflow: auto;
 }
 
 /*
@@ -570,16 +573,9 @@ td.text-left {
     margin-left: auto;
     margin-right: auto;
   }
-  .main-data {
-    display: contents;
-  }
-  .table-container {
-    width: 50%;
-    margin: 1%;
-  }
-
-  table#jquery.table-fill {
-display: contents;
+  
+  table, thead, tbody, th, td, tr {
+    display: block;
   }
 
   .resource-header {
