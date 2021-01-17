@@ -574,10 +574,6 @@ td.text-left {
     margin-right: auto;
   }
   
-  table, thead, tbody, th, td, tr {
-    display: block;
-  }
-
   .resource-header {
     text-align: center;
     margin-left: 0;
