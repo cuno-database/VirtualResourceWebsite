@@ -449,7 +449,6 @@ color: black;
   text-align: center;
   max-width: 75%;
   min-width: 30%;
-  overflow: auto;
 }
 
 /*
@@ -463,6 +462,7 @@ table#jquery.table-fill {
   border-collapse: collapse;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
   animation: float 5s infinite;
+  overflow: auto;
 }
  
 th {
@@ -573,7 +573,11 @@ td.text-left {
     margin-left: auto;
     margin-right: auto;
   }
-  
+  .main-data{
+    padding: 0%;
+    margin: 0%;
+    max-width: 100%;
+  }
   .resource-header {
     text-align: center;
     margin-left: 0;
