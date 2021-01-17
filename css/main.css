@@ -461,7 +461,6 @@ table#jquery.table-fill {
   border-collapse: collapse;
   height: 1%;
   max-width: 70%;
-  min-width: 30%;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
   animation: float 5s infinite;
 }
